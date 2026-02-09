@@ -34,30 +34,8 @@ sudo apt-get install tmux  # Ubuntu/Debian
 
 ### 2. Install This Skill
 
-**Option A: Direct Download**
 ```bash
-# Download the skill
-curl -L https://github.com/bowtiedswan/worktree-beads-tmux-skill/archive/refs/heads/main.zip -o skill.zip
-unzip skill.zip
-
-# Copy to Claude skills directory
-cp -r worktree-beads-tmux-skill ~/.claude/skills/
-```
-
-**Option B: Git Clone**
-```bash
-cd ~/.claude/skills
-git clone https://github.com/bowtiedswan/worktree-beads-tmux-skill.git
-```
-
-### 3. Verify Installation
-
-```bash
-# Check skill is available
-ls ~/.claude/skills/worktree-beads-tmux-skill/
-
-# Should show:
-# SKILL.md  references/  scripts/
+npx skills add bowtiedswan/worktree-beads-tmux-skill
 ```
 
 ## 🚀 Quick Start
